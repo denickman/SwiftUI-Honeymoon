@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8564020B2BE0BDF20097C6DB /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564020A2BE0BDF20097C6DB /* GuideComponent.swift */; };
+		8564020D2BE0C0700097C6DB /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564020C2BE0C0700097C6DB /* GuideView.swift */; };
+		8564020F2BE0D5000097C6DB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564020E2BE0D5000097C6DB /* InfoView.swift */; };
+		856402112BE0D60F0097C6DB /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856402102BE0D60F0097C6DB /* TitleModifier.swift */; };
+		856402142BE0DBCC0097C6DB /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856402132BE0DBCC0097C6DB /* ButtonModifier.swift */; };
+		856402162BE117C20097C6DB /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856402152BE117C20097C6DB /* SymbolModifier.swift */; };
+		856402192BE13C110097C6DB /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856402182BE13C110097C6DB /* CardTransition.swift */; };
+		8564021C2BE205D50097C6DB /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564021B2BE205D50097C6DB /* PlaySound.swift */; };
 		85A87E802BD14757005103AF /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A87E7F2BD14757005103AF /* HoneymoonApp.swift */; };
 		85A87E822BD14757005103AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A87E812BD14757005103AF /* ContentView.swift */; };
 		85A87E842BD14759005103AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A87E832BD14759005103AF /* Assets.xcassets */; };
 		85A87E872BD14759005103AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A87E862BD14759005103AF /* Preview Assets.xcassets */; };
+		85C4284F2BDFC3B700C08060 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85C4284D2BDFC3B700C08060 /* sound-rise.mp3 */; };
+		85C428502BDFC3B700C08060 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85C4284E2BDFC3B700C08060 /* sound-click.mp3 */; };
+		85C428522BDFC42000C08060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C428512BDFC42000C08060 /* LaunchScreen.storyboard */; };
+		85C428562BDFC80700C08060 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C428552BDFC80700C08060 /* HoneymoonModel.swift */; };
+		85C428592BDFC86600C08060 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C428582BDFC86600C08060 /* HoneymoonData.swift */; };
+		85C4285C2BDFC8E600C08060 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C4285B2BDFC8E600C08060 /* CardView.swift */; };
+		85C4285E2BDFD2C200C08060 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C4285D2BDFD2C200C08060 /* HeaderView.swift */; };
+		85C428602BDFD8EC00C08060 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C4285F2BDFD8EC00C08060 /* FooterView.swift */; };
+		85C428632BDFDC9900C08060 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C428622BDFDC9900C08060 /* HeaderComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8564020A2BE0BDF20097C6DB /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		8564020C2BE0C0700097C6DB /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		8564020E2BE0D5000097C6DB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		856402102BE0D60F0097C6DB /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		856402132BE0DBCC0097C6DB /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		856402152BE117C20097C6DB /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		856402182BE13C110097C6DB /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		8564021B2BE205D50097C6DB /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		85A87E7C2BD14757005103AF /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A87E7F2BD14757005103AF /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		85A87E812BD14757005103AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85A87E832BD14759005103AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A87E862BD14759005103AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85C4284D2BDFC3B700C08060 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		85C4284E2BDFC3B700C08060 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		85C428512BDFC42000C08060 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C428552BDFC80700C08060 /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
+		85C428582BDFC86600C08060 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		85C4285B2BDFC8E600C08060 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		85C4285D2BDFD2C200C08060 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		85C4285F2BDFD8EC00C08060 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		85C428622BDFDC9900C08060 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +66,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		856402122BE0D63B0097C6DB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				856402102BE0D60F0097C6DB /* TitleModifier.swift */,
+				856402132BE0DBCC0097C6DB /* ButtonModifier.swift */,
+				856402152BE117C20097C6DB /* SymbolModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		856402172BE13BF90097C6DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				856402182BE13C110097C6DB /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8564021A2BE205CC0097C6DB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8564021B2BE205D50097C6DB /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		85A87E732BD14757005103AF = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +111,17 @@
 		85A87E7E2BD14757005103AF /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				8564021A2BE205CC0097C6DB /* Helper */,
+				856402172BE13BF90097C6DB /* Extension */,
+				856402122BE0D63B0097C6DB /* Modifier */,
+				85C428612BDFDC8A00C08060 /* Component */,
+				85C428572BDFC85B00C08060 /* Data */,
+				85C428542BDFC7FB00C08060 /* Model */,
+				85C4284C2BDFC3B700C08060 /* Sounds */,
 				85A87E7F2BD14757005103AF /* HoneymoonApp.swift */,
-				85A87E812BD14757005103AF /* ContentView.swift */,
+				85C4285A2BDFC8DD00C08060 /* View */,
 				85A87E832BD14759005103AF /* Assets.xcassets */,
+				85C428512BDFC42000C08060 /* LaunchScreen.storyboard */,
 				85A87E852BD14759005103AF /* Preview Content */,
 			);
 			path = Honeymoon;
@@ -65,6 +133,61 @@
 				85A87E862BD14759005103AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85C4284C2BDFC3B700C08060 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				85C428532BDFC7F500C08060 /* View */,
+				85C4284D2BDFC3B700C08060 /* sound-rise.mp3 */,
+				85C4284E2BDFC3B700C08060 /* sound-click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		85C428532BDFC7F500C08060 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85C428542BDFC7FB00C08060 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85C428552BDFC80700C08060 /* HoneymoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85C428572BDFC85B00C08060 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				85C428582BDFC86600C08060 /* HoneymoonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		85C4285A2BDFC8DD00C08060 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85A87E812BD14757005103AF /* ContentView.swift */,
+				85C4285B2BDFC8E600C08060 /* CardView.swift */,
+				85C4285D2BDFD2C200C08060 /* HeaderView.swift */,
+				85C4285F2BDFD8EC00C08060 /* FooterView.swift */,
+				8564020C2BE0C0700097C6DB /* GuideView.swift */,
+				8564020E2BE0D5000097C6DB /* InfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85C428612BDFDC8A00C08060 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				85C428622BDFDC9900C08060 /* HeaderComponent.swift */,
+				8564020A2BE0BDF20097C6DB /* GuideComponent.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C4284F2BDFC3B700C08060 /* sound-rise.mp3 in Resources */,
+				85C428502BDFC3B700C08060 /* sound-click.mp3 in Resources */,
 				85A87E872BD14759005103AF /* Preview Assets.xcassets in Resources */,
+				85C428522BDFC42000C08060 /* LaunchScreen.storyboard in Resources */,
 				85A87E842BD14759005103AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +263,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C428592BDFC86600C08060 /* HoneymoonData.swift in Sources */,
+				8564020F2BE0D5000097C6DB /* InfoView.swift in Sources */,
+				85C428602BDFD8EC00C08060 /* FooterView.swift in Sources */,
+				856402112BE0D60F0097C6DB /* TitleModifier.swift in Sources */,
+				856402192BE13C110097C6DB /* CardTransition.swift in Sources */,
+				856402162BE117C20097C6DB /* SymbolModifier.swift in Sources */,
+				85C4285E2BDFD2C200C08060 /* HeaderView.swift in Sources */,
+				85C428562BDFC80700C08060 /* HoneymoonModel.swift in Sources */,
+				856402142BE0DBCC0097C6DB /* ButtonModifier.swift in Sources */,
+				8564021C2BE205D50097C6DB /* PlaySound.swift in Sources */,
+				85C428632BDFDC9900C08060 /* HeaderComponent.swift in Sources */,
 				85A87E822BD14757005103AF /* ContentView.swift in Sources */,
 				85A87E802BD14757005103AF /* HoneymoonApp.swift in Sources */,
+				85C4285C2BDFC8E600C08060 /* CardView.swift in Sources */,
+				8564020B2BE0BDF20097C6DB /* GuideComponent.swift in Sources */,
+				8564020D2BE0C0700097C6DB /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +418,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +447,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
